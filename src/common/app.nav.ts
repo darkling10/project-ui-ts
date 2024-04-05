@@ -87,16 +87,7 @@ export const navItems: {
       type: 'app',
       route: '/',
     },
-    {
-      name: 'Call',
-      barTitle: 'Voice Calls',
-      icon: CallOutlinedIcon,
-      iconActive: CallIcon,
-      type: 'app',
-      route: '/call',
-      hideDrawer: true,
-      fullWidth: true,
-    },
+
     {
       name: 'Draw',
       barTitle: 'Generate Images',
@@ -168,15 +159,6 @@ export const navItems: {
       hideIcon: hasNoChatLinkItems,
       hideNav: hasNoChatLinkItems,
     },
-    {
-      name: 'News',
-      icon: EventNoteOutlinedIcon,
-      iconActive: EventNoteIcon,
-      type: 'app',
-      route: '/news',
-      hideBar: true,
-      hideDrawer: true,
-    },
   ],
 
   // Modals
@@ -213,7 +195,7 @@ export const navItems: {
       type: 'extLink',
       name: 'GitHub',
       icon: GitHubIcon,
-      href: Brand.URIs.OpenRepo,
+      href: 'https://github.com/darkling10',
     },
   ],
 };

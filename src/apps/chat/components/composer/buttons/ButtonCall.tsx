@@ -27,10 +27,10 @@ export function ButtonCall(props: { isMobile?: boolean, disabled?: boolean, onCl
       <CallIcon />
     </IconButton>
   ) : (
-    <Tooltip disableInteractive variant='solid' arrow placement='right' title={callConversationLegend}>
-      <Button variant='soft' color='primary' disabled={props.disabled} onClick={props.onClick} endDecorator={<CallIcon />} sx={desktopSx}>
-        Call
-      </Button>
-    </Tooltip>
+    // <Tooltip disableInteractive variant='solid' arrow placement='right' title={callConversationLegend}>
+      // <Button variant='soft' color="neutral" disabled={props.disabled} onClick={props.onClick} sx={desktopSx}>
+        ""
+      // </Button>
+    // </Tooltip>
   );
 }
